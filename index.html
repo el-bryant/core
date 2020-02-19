@@ -9,7 +9,99 @@
 </head>
 
 <body>
-    <h1>Core</h1>
+    <!--Navbar-->
+    <div id="Inicio" class="navbar-dark bg-primary fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary mx-2">
+            <a class="navbar-brand" href="#Inicio">
+                <img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="logo_de_empresa"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navBarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Cursos">Cursos<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <span class="navbar-text">+51 936 794 594 </span>
+            </div>
+        </nav>
+    </div>
+    <!--Navbar-->
+
+    <!--Slide (imágenes de 1600px/400px)-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="carouselExampleIndicators" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/slide1.png" alt="android">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-primary">Desarrollo de aplicaciones para Android</h5>
+                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sequi aut fugiat placeat expedita deserunt praesentium doloremque minima, eos maxime impedit quas! Dolor cupiditate omnis laborum est veritatis sapiente distinctio?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide2.png" alt="sql">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-primary">Gestión y administracion de base de datos</h5>
+                    <p class="text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem nisi similique enim rem, molestiae odio vitae excepturi nostrum aliquid mollitia? Nisi asperiores nulla eum, accusamus quasi aliquid necessitatibus nostrum ullam?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide3.png" alt="hacking">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-primary">Seguridad informática y Ethical Hacking</h5>
+                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis praesentium alias aliquam animi accusantium, sapiente autem deserunt modi deleniti error dolorum eius. Iure sapiente suscipit culpa aliquid molestiae voluptate?</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide4.png" alt="office">
+                <h5 class="text-primary">Microsoft Office</h5>
+                <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, cum ipsam, suscipit dignissimos inventore sunt voluptatum reiciendis aliquid esse ducimus quia velit tempora assumenda laboriosam! Sunt beatae dolores ducimus! Ratione.</p>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide5.png" alt="robótica">
+                <h5 class="text-primary">Robótica para niños</h5>
+                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatum possimus tenetur aut cum culpa unde, repellendus quod ipsam illum quam, magni deserunt vero voluptate laudantium libero et facere molestias.</p>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide6.png" alt="matemática">
+                <h5 class="text-primary">Matemática para primaria y secundaria</h5>
+                <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quidem quis voluptatum, accusantium molestiae odit pariatur nostrum, in voluptate distinctio, eaque placeat? Sapiente aspernatur et non earum ea corrupti voluptatibus?</p>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide7.png" alt="inglés">
+                <h5 class="text-primary">Inglés</h5>
+                <p class="text-primary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil fuga officia atque earum. Ex maxime, quia delectus similique ipsa eum voluptates cupiditate architecto! Omnis incidunt officiis a quam laborum commodi!</p>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/slide8.png" alt="guitarra">
+                <h5 class="text-primary">Guitarra</h5>
+                <p class="text-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam recusandae perspiciatis a necessitatibus, amet, tenetur ut facilis numquam maiores debitis voluptatum quaerat ea magnam id ipsum atque laborum velit quae.</p>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+    </div>
+    <!--Slide-->
+
+    <!--Scripts JQuery, Popper, Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
