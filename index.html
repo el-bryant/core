@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="image/png" href="img/isotipo.png" />
 
     <title>Core</title>
 </head>
 
 <body>
     <!--Navbar-->
-    <div id="Inicio" class="navbar-dark bg-primary fixed-top">
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary mx-2">
+    <div id="Inicio" class="navbar-dark bg-negro fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-negro mx-2">
             <a class="navbar-brand" href="#Inicio">
-                <img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="logo_de_empresa"/>
+                <img src="img/logo.png"  height="50" class="d-inline-block align-top" alt="logo_de_empresa"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navBarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,17 +23,17 @@
             <div class="collapse navbar-collapse" id="navBarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#Cursos">Cursos<span class="sr-only">(current)</span></a>
+                        <a class="nav-link t-amarillo" href="#Cursos">Cursos<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-                <span class="navbar-text">+51 936 794 594 </span>
+                <span class="navbar-text t-gris">+51 936 794 594 </span>
             </div>
         </nav>
     </div>
     <!--Navbar-->
 
     <!--Slide (imágenes de 1600px/400px)-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide d-none" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
@@ -68,7 +70,7 @@
                 <img class="d-block w-100" src="img/slide4.png" alt="office">
                 <h5 class="text-primary">Microsoft Office</h5>
                 <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, cum ipsam, suscipit dignissimos inventore sunt voluptatum reiciendis aliquid esse ducimus quia velit tempora assumenda laboriosam! Sunt beatae dolores ducimus! Ratione.</p>
-            </div>
+            </div>x
             <div class="carousel-item">
                 <img class="d-block w-100" src="img/slide5.png" alt="robótica">
                 <h5 class="text-primary">Robótica para niños</h5>
@@ -100,6 +102,23 @@
         </div>
     </div>
     <!--Slide-->
+
+    <!--Cabecera-->
+    <div class="container-fluid bg-negro pt-4" style="height: 100vh">
+        <div class="row justify-content-center mt-5 pt-5">
+            <div class="col-5"></div>
+            <div class="col-5 ml-4">
+                <div class="texto-cabecera t-blanco mt-auto mb-auto">El conocimiento debe ser compartido</div>
+            </div>
+        </div>
+    </div>
+    <!--Cabecera-->
+
+    <!--Cuerpo-->
+    <div class="container">
+        <h1 class="display-4 text-center mt-5">Un espacio de entrenamiento y aprendizaje</h1>
+    </div>
+    <!--Cuerpo-->
 
     <!--Scripts JQuery, Popper, Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
